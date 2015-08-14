@@ -1,0 +1,114 @@
+
+/*Desktops (≥1200px)*/
+@media(min-width:1200px) {
+    .container{ width: 1275px;}
+
+}
+
+/*Desktops (≥1200px)*/
+@media(min-width:992px) and (max-width:1200px) {
+    .nav-marquee .marquee_text{ width:60%;  }
+
+    .raise_container .raise_items.items_horizontal .item .info{ padding-right: 10px;}
+    .raise_container .raise_items.items_horizontal .item .info .update{ position: static; margin-bottom: 0px;}
+    .raise_container .raise_items.items_horizontal .item .info .progress-bars.margin_set .progress{ width: 100%;}
+
+    .raise_history .col-item{ width: 20%;}
+
+    .charity-banner li{ width: 33.3333%}
+
+    .case-container .cont_withtit .progress_lists .progress{ width: 40%; }
+    .case-container .cont_withtit .progress_lists .number{ width: 30%; }
+    .case-container .cont_withtit .progress_lists .text{ width: 30%; }
+
+}
+
+
+/*Desktops (≥992px)*/
+@media(min-width:992px)  {
+
+
+}
+
+
+/*Desktops (≥769px and <991px )*/
+@media(min-width:769px) and (max-width: 991px)  {
+    
+}
+
+/*Desktops (< 991px )*/
+@media(max-width:991px) {
+    .container-ad{ display: none;}
+    .container-main{ margin: 0px;}
+
+    .nav-marquee .marquee_text{ width:60%;  }   
+   
+}   
+
+/* Tablets (≥768px)*/
+@media(min-width:768px) {
+    
+    .modal-dialog{ width: 750px;}
+
+
+
+}
+
+
+/* Phones (<768px)*/
+@media(max-width:767px) {
+    .container{ padding:0px; width: 100%; }
+    .container_fullwidth{ padding-left:15px; padding-right: 15px; border:none; }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{ background: #4d4d4d; z-index: 9999; position: relative; border-color:#444; }
+    .navbar-default > .container_fullwidth{ height: auto;}
+    .nav-signin{ margin-top: 0px; margin-bottom: 0px;}
+    .nav-marquee h3.title{ margin-top: 15px;}
+    .nav-marquee .marquee_text{ width: 100%; padding-left:40px; }
+    .nav-marquee .marquee_text .word{ margin: 12px 0 8px 0;}
+    .navbar-default .navbar-toggle{ border-color:#33cccc; }
+    .navbar-default .navbar-toggle .icon-bar{ background: #33cccc;}
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{ background-color:#33cccc ;}
+    .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar{ background: #FFF;}
+
+    .nav-tabs{ margin-bottom: 70px;}
+    .raise_container .sort{ top: 42px; right: auto; left: 0px; width: 100%; text-align: center;}
+
+    .cont_withtit .img{ margin-bottom: 15px;}
+    .raise_history .col-item{ width: 25%;}
+
+    .nav-tabs.navtabs_marg{ margin-bottom: 15px;}
+
+    .return_content .form-control{ margin-bottom: 10px;}
+
+    .charity-banner li{ width: 33.333333%}
+
+    .case-container .cont_withtit .progress_lists .progress{ width: 60%; }
+    .case-container .cont_withtit .progress_lists .number{ width: 20%; }
+    .case-container .cont_withtit .progress_lists .text{ width: 20%; }
+}
+
+/* Phones (<480px)*/
+@media(max-width:480px) {
+    .header_logo .logo{ width: 60px; height: 60px;}
+    .index_header .title{ width: 150px; height: 32px; margin-left: 10px;}
+
+    .nav-tabs>li{ width: 25%;}
+    .raise_container .sort{ top: 70px;}
+
+    .raise_history .col-item{ width: 33.33333%;}
+
+    .charity-banner li{ width: 50%}
+
+    .footer-above ul > li+li:before{ padding: 0 2px;}
+    .nav-tabs>li>a { padding: 8px 5px 5px 5px;}
+    .tabw{width: 55px; height: 13px; display: inline-block;  text-indent: -9999px; overflow: hidden; background-size: 100%; background-repeat: no-repeat; }
+
+
+    .case-container .cont_withtit .progress_lists .progress{ width: 40%; }
+    .case-container .cont_withtit .progress_lists .number{ width: 30%; }
+    .case-container .cont_withtit .progress_lists .text{ width: 30%; }
+
+}
+
+
